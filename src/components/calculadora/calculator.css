@@ -1,0 +1,52 @@
+.component{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+}
+
+.calculator-component{
+    background-color: rgb(58, 45, 70);
+    display: inline-block;
+    padding: 20px;
+    border-radius: 10%;
+    border: 10px solid rgb(255, 255, 255);
+}
+
+.calculator-component-answer{
+    background-color: rgb(255, 255, 255);
+    height: 70px;
+    font-size: 38px;
+    display: flex;
+    width: 230px;
+    justify-content: end;
+    align-items: center;
+    margin: 20px 10px;
+    border-radius: 10%;
+    border: 1px solid black;
+    padding: 0 15px;
+    overflow: hidden;
+}
+
+
+
+.button {
+    font-size: 50px;
+    margin: 10px;
+    border: none;
+    border-radius: 10%;
+    padding: 0 10px;
+    background-color: rgb(58, 45, 70);
+    color: beige;
+    cursor: pointer;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.clear {
+    border: 1px solid white;
+    width: 270px;
+    padding: 15px;
+    border-radius: 25%;
+    background-color: brown;
+    color: beige;
+}

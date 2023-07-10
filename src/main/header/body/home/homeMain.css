@@ -1,0 +1,45 @@
+
+
+.home{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    user-select: none;
+}
+
+
+.short{
+    font-size: 50px;
+    font-weight: 300;
+    color: rgb(175, 175, 175);
+    margin-left: 50px;
+}
+
+.name{
+    font-size: 120px;
+    color: rgb(247, 247, 247);
+    margin-left: 50px;
+}
+
+.profession{
+    margin-top: 30px;
+    background-color: aliceblue;
+    color: rgb(16, 31, 102);
+    font-size: 100px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    display:inline-flex;
+    padding-left: 50px;
+    padding-right: 20px;
+    border-bottom-right-radius:  30px;
+    border-top-right-radius:30px;
+
+}
+
+.flecha{
+    font-size: 80px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    bottom: 0;
+    left: calc(50% - 5%);
+}

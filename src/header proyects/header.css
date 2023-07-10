@@ -1,0 +1,45 @@
+.header-component{
+    background-color: rgb(73, 5, 119);
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-component-h3{
+    color: beige;
+    text-transform: uppercase;
+    margin-left: 10%;
+    font-size: 28px;
+    user-select: none;
+    letter-spacing: 2px;
+}
+
+.header-component-link{
+    color: beige;
+    text-decoration: none;
+    margin-right: 10%;
+    font-size: 18px;
+    padding: 5px;
+    transition: .3s;
+    border-radius: 25%;
+}
+
+.header-component-link:hover{
+    background-color:rgb(115, 20, 179);
+    transition: .3s;
+}
+
+
+@media (max-width: 500px) {
+    .header-component{
+        height: 50px;
+    }
+    .header-component-h3{
+        margin-left: 3%;
+    }
+    
+    .header-component-link{
+        margin-right: 3%;
+    }
+  }
