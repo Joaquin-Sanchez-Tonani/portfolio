@@ -4,15 +4,12 @@
     position: relative;
 }
 .contenedor-skills > div{
-    background-color: aliceblue;
     width: 80%;
     height: 80%;
     position: absolute;
     bottom: 10%;
     left: 7.5%;
-    border-radius: 15px;
-    background-color: rgba(17, 12, 44, 0.5);
-    border: 5px solid black;
+
     padding:  30px 130px 130px 130px;
     user-select: none;
     
@@ -20,19 +17,18 @@
 
 .skills{
     display: flex;
-    gap: 150px;
+    gap: 250px;
     justify-content: center;
-
 }
 
 .skills + .skills{
-    margin-top: 60px;
+    margin-top: 160px;
 }
 
 .skills-tittle{
     text-align: center;
     color: aliceblue;
     font-size: 100px;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
     text-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
 }

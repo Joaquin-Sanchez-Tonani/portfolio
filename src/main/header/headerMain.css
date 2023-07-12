@@ -1,5 +1,5 @@
 .header-main{
-    border-left: 3px solid rgb(255, 255, 255);
+    border-left: 1px solid rgb(255, 255, 255);
     z-index: 1;
     width: 5%;
     height: 100%;
@@ -8,7 +8,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 0 0 20px 10px #183766;
+    box-shadow: 0 0 20px 10px #0d203b;
 }
 
 .header-nav{
@@ -43,7 +43,7 @@
   }
   
   .header-nav-li-a:hover::before {
-    background-color: rgb(235, 8, 8);
+    background-color: rgb(240, 237, 237);
   }
 
 
