@@ -9,16 +9,14 @@
     position: absolute;
     bottom: 10%;
     left: 7.5%;
-
-    padding:  30px 130px 130px 130px;
     user-select: none;
-    
 }
 
 .skills{
     display: flex;
     gap: 250px;
     justify-content: center;
+    margin-right: 5%;
 }
 
 .skills + .skills{
@@ -31,4 +29,5 @@
     font-size: 100px;
     padding-bottom: 50px;
     text-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+    margin-right: 5%;
 }
