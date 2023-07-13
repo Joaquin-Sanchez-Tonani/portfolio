@@ -11,8 +11,7 @@ function AboutMe(){
                 <div className="cont-about">
                     <div className="contenedor-1">
                         <p className="text-about-me"> 
-                                                    Aquí tienes el texto en inglés con las etiquetas <strong className="strong"></strong> agregadas a las palabras o partes importantes sin repetir las etiquetas en el mismo texto:
-
+                                                
                             My name is <strong className="strong">Joaquin</strong>, and I was born in <strong className="strong">Rosario, Argentina</strong>. I'm <strong className="strong">20 years old</strong> and have been a <strong className="strong">programmer</strong> for the past 2 years. Programming has been my passion, and I enjoy the creative process of solving problems and building innovative solutions.
 
                             Apart from programming, I have a wide range of hobbies and interests. I love <strong className="strong">reading mangas</strong>, watching <strong className="strong">anime</strong> or <strong className="strong">series</strong>.
