@@ -4,14 +4,128 @@
 }
 
 .contenedor-contact > div{
-    background-color: #ffffff35;
-    backdrop-filter: saturate(180%) blur(10px);
-    border-radius: 20px;
-    box-shadow: 0px 1px 10px 0px rgba( 31, 38, 135, 0.1 );
+    background-color: #ffffff;
+    box-shadow: 0px 1px 10px 0px rgb(234, 230, 230);
     height: 60vh;
     border-radius: 15px;
     padding: 35px;
     display: flex;
+    padding: 50px;
+    align-items: center;
+}
 
-    
+.contact{
+    width: 30%;
+
+    height: 50px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.date{
+    width: 100%;
+    height: 33%;
+    padding: 30px 0;
+    align-items: center;
+}
+.date-logo{
+    font-size: 30px;
+    color: rgb(80, 13, 142);
+}
+
+.text-date{
+    padding-top: 5px;
+    color: #777777;
+}
+
+.tittle-date{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.divisor-barra{
+    width: 1.5px;
+    height: 70%;
+    background-color: #bebebe;
+    margin: 0 30px;
+    border-radius: 15px;
+}
+
+.formulario{
+   width: 70%;
+
+   height: 100%;
+   text-align: left;
+   padding: 30px;
+}
+
+.tittle-form{
+    font-size: 25px;
+    color: rgb(80, 13, 142);
+}
+
+.text-form{
+    color: #777777;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.input-text{
+    font-size: 20px;
+    display: block;
+    background: rgb(220, 230, 239);
+    border: none;
+    height: 50px;
+    padding-left: 15px;
+    width: 100%;
+    border-radius: 5px;
+}
+.input-text + .input-text {
+    margin-top: 10px;
+}
+
+.input-text + .input-text-area{
+    margin-top: 10px;
+}
+.input-text-area{
+    font-size: 20px;
+    display: block;
+    background: rgb(220, 230, 239);
+    border: none;
+    height: 140px;
+    padding-left: 15px;
+    padding-top: 10px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.error-text{
+    color: rgb(155, 56, 56);
+}
+.input-text-area + .button-form{
+    margin-top: 10px;
+}
+
+.button-form{
+    border: none;
+    display: block;
+    padding: 10px 50px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: rgb(80, 13, 142);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    color: #ffffff;
+}
+
+.button-form:hover {
+    transform: scale(.95);
+  }
+
+.sended-text{
+    color: rgb(12, 113, 12);
 }
