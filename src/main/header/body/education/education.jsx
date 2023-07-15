@@ -5,10 +5,9 @@ function Education(){
     return(
         <div id="education" className="jota-contenedor">
             <div>
-                <div  className="contendor-edu">
+                <div className="contendor-edu">
                     <h3 className="tittle-education">Education</h3>
                     <div className="education-contenedor">
-                        
                         <div className="education-apartado">
                             <div class="esquina-izquierda"></div>
                             <div class="esquina-derecha"></div>

@@ -6,15 +6,33 @@
 .projects-contenedor > div{
     margin-right: 5%;
     height: 60vh;
-
     display: flex;
     justify-content: center;
     text-align: center;
     align-items: center;
-    gap: 200px;
+    gap: 100px;
 }
 
+@media (max-width:768px){
+    .espaciado{
+        margin-top: 130px;
+    }
+    .projects-contenedor{
+        height: 100vh;
+        padding: 130px 50px;
+        
+    }
 
-
+    .projects-contenedor > div{
+        margin-right: 100px;
+        height: 20vh;
+        margin-top: 30%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    
+}
 
 

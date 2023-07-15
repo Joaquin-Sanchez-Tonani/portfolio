@@ -11,3 +11,17 @@
     text-align: center;
     padding-bottom: 10px;
 }
+
+@media (max-width:768px){
+    .logo-img{
+        height: 70px;
+        border-radius: 5px;
+        padding: 4px;
+
+    }
+    
+    .logo-tittle{
+        font-size: 15px;
+
+    }
+}

@@ -21,6 +21,8 @@
 
 .contenedor-edu{
     position: relative;
+    width: 100vh;
+
 }
 
 .education-contenedor{
@@ -107,23 +109,30 @@
 
 
 @media (max-width: 768px){
-
+    .jota-contenedor{
+        justify-content: end;
+        
+    } 
     .jota-contenedor > div{
-        height: 100%;
+        height: 90%;
         bottom: 0;
-        left: 0;
-        padding: 50px 5px;
+        left: none;
+        padding: 0;
+        margin: 0;
     }
     
     
-    .education-contenedor{
+    .education-contenedor {
         display: grid;
-        grid-template-columns: repeat(2, 1fr); /* Crea 3 columnas iguales */
-        grid-template-rows: repeat(4, 1fr); /* Crea 2 filas iguales */
-        gap: 40px; /* Espacio entre elementos */
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        gap: 0;
         width: 100%;
         height: 100vh;
-    } 
+        text-align: left;
+        padding-left: 0; /* Ajustamos el padding a cero */
+        padding-right: 0; /* Ajustamos el padding a cero */
+    }
       .esquina-izquierda {
         visibility: hidden;
       }
@@ -136,15 +145,17 @@
         height: 150px;
         width: 150px;
     } 
+    .contenedor-edu{
+        position: relative;
 
+
+    }
     .tittle-education{
         font-size: 60px;
         text-align: center;
         user-select: none;
         padding-right: 0;
         text-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
-        margin-bottom: 0px;
-        margin-left: 22%;
     }
     
     .texto-edu{

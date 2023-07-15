@@ -38,9 +38,9 @@
 @media (max-width: 768px) {
     .about-div{
         height: 100vh;
-        padding: 30px;
-       
+        padding: 20% 5%;
     }
+    
     
     .about-div > div {
         border-radius: 20px;
@@ -57,6 +57,5 @@
     .tittle-about-me{
         font-size: 35px;
         padding:0;
-        margin-bottom: 5px;
     }
   }
