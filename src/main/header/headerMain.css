@@ -46,6 +46,20 @@
     background-color: rgb(240, 237, 237);
   }
 
+@media (max-width: 768px) {
+  .header-main{
+      border-left: none;
+      border-bottom: 1px solid rgb(255, 255, 255);
+      width: 100vh;
+      height: 5%;
+      box-shadow:none;
+  }
+  .header-nav{
+      flex-direction: row;
+      gap: 10px; 
+  }
+}
+
 
 
 

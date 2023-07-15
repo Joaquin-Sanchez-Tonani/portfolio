@@ -28,12 +28,11 @@
     font-size: 50px;
     text-transform: uppercase;
     letter-spacing: 2px;
-    display:inline-flex;
+    display:inline-block;
     padding-left: 50px;
     padding-right: 20px;
     border-bottom-right-radius:  30px;
     border-top-right-radius:30px;
-
 }
 
 .flecha{
@@ -43,3 +42,55 @@
     bottom: 0;
     left: calc(50% - 5%);
 }
+
+.download{
+    display:inline-block;
+    
+    padding: 15px;
+    background-color: rgb(249, 0, 0);
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    margin-top: 25px;
+    border-bottom-right-radius:  30px;
+    border-top-right-radius:30px;
+    transition: .5s;
+    font-weight: 900;
+}
+
+.download:hover{
+    transition: .5s;
+    padding-left: 40px;
+}
+
+@media (max-width: 768px) {
+    .short{
+        font-size: 15px;
+        margin-left: 10px;
+    }
+    
+    .name{
+        font-size: 25px;
+        margin-left: 10px;
+    }
+    
+    .profession{
+        margin-top: 10px;
+        font-size: 25px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    .flecha{
+        font-size: 40px;
+        left: calc(50% - 5%);
+    }
+    
+    .download{
+        padding: 8px;
+        font-size: 12px;
+        margin-top: 15px;
+
+    }
+  }
+  

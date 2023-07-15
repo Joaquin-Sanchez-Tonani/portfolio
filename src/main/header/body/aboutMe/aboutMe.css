@@ -34,3 +34,29 @@
     padding: 5px;
     margin-bottom: 10px;
 }
+
+@media (max-width: 768px) {
+    .about-div{
+        height: 100vh;
+        padding: 30px;
+       
+    }
+    
+    .about-div > div {
+        border-radius: 20px;
+        box-shadow: 0px 1px 10px 0px rgba(67, 71, 126, 0.704);
+        height: 100%;
+        padding: 25px;
+        overflow: scroll;
+    }
+    
+    .text-about-me{
+        font-size: 15px;
+        line-height: 1.7em;
+    }
+    .tittle-about-me{
+        font-size: 35px;
+        padding:0;
+        margin-bottom: 5px;
+    }
+  }
