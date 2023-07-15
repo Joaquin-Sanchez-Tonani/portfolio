@@ -10,7 +10,7 @@ function HomeMain(){
                 <h4 className="short">and I'm </h4>
                 <h2 className="profession">web developer</h2>
                 <br />
-                <a href="https://drive.google.com/file/d/1P6ShLpcIU3_p8qUjGGzE1hQsf6zH4ifw/view?usp=sharing" className="download" target="_blank" download>Download CV</a>
+                <a href="https://drive.google.com/file/d/1P6ShLpcIU3_p8qUjGGzE1hQsf6zH4ifw/view?usp=sharing" className="download" target="_blank" rel="noopener noreferrer">Download CV</a>
                 <a href="#aboutMe"><i className="fi flecha fi-sr-angle-double-small-down"></i></a>
             </div>
             
