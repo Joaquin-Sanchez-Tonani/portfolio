@@ -97,7 +97,7 @@
   @media (max-width:768px){
     .marco1{
         height: 300px;
-        width: 100px;
+        width: 200px;
         display: inline-block;
         position: relative;
         transition: all .5s;

@@ -43,7 +43,7 @@
         150px, 1fr
       )
   );
-  gap: 150px;
+  gap: 200px;
 }
 
 
@@ -51,31 +51,16 @@
 .education-apartado {
     position: relative;
     overflow: hidden;
+    
   }
   
-  .esquina-izquierda {
-    position: absolute;
-    top: 0;
-    right: 0;
-    border-right: 2px solid white;
-    border-top: 2px solid white;
-    height: 40%;
-    width: 40%;
-  }
+
   
-  .esquina-derecha {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    border-left: 2px solid white;
-    border-bottom: 2px solid white;
-    height: 40%;
-    width: 40%;
-  }
+
 
 
 .education-apartado{   
-    padding: 10px;
+    padding: 0;
     height: 200px;
     user-select: none;
 } 
@@ -103,7 +88,7 @@
 
 .education-apartado > p{
     color: aliceblue;
-    padding: 0 20px;
+    padding: 0;
     font-size: 18px;
 }
 
@@ -150,13 +135,7 @@
       gap: 3px;
       margin-left: 5%;
     }
-      .esquina-izquierda {
-        visibility: hidden;
-      }
-      
-      .esquina-derecha {
-        visibility: hidden;
-      }
+
     .education-apartado{   
         padding: 0px;
         height: 150px;

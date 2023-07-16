@@ -183,7 +183,6 @@
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     }
 
-    
     .divisor-barra{
         width: 70%;
         height: 2px;
@@ -260,9 +259,24 @@
     
     .button-form:hover {
         transform: scale(.95);
-      }
+    }
     
     .sended-text{
         color: rgb(12, 113, 12);
+    }
+}
+
+@media (max-height:760px){
+    .button-form{
+        padding: 10px 50px;
+        font-size: 10px;
+    }
+    .input-text-area{
+        font-size: 15px;
+        height: 70px;
+    }
+    .input-text{
+        font-size: 15px;
+        height: 40px;
     }
 }
