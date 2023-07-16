@@ -25,3 +25,17 @@
 
     }
 }
+
+@media (max-width:380px){
+    .logo-img{
+        height: 50px;
+        border-radius: 5px;
+        padding: 4px;
+
+    }
+    
+    .logo-tittle{
+        font-size: 13px;
+
+    }
+}
