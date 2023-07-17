@@ -97,12 +97,18 @@
   @media (max-width:768px){
     .marco1{
         height: 300px;
-        width: 200px;
+        width: 100px;
         display: inline-block;
         position: relative;
         transition: all .5s;
         border-radius: 15px;
+        
     }
+
+    .marco1 + .marco1{
+        margin-left: 10px;
+    }
+
     
     
     
@@ -132,7 +138,7 @@
         font-size: 20px;
         color: aliceblue;
         top:230px;
-        left: 15px;
+        left: 13%;
         right: 50%;
         position: absolute;
         transition: .5s;

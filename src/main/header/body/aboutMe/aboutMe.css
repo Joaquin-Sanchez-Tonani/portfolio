@@ -1,6 +1,7 @@
 .about-div{
     height: 100vh;
     padding: 20vh calc(20vh + 5%) 20vh 20vh;
+
 }
 
 .about-div > div {
@@ -11,6 +12,34 @@
     height: 60vh;
     border-radius: 15px;
     padding: 35px;
+    overflow-y: scroll;
+    
+}
+
+.about-div > div::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+.about-div > div::-webkit-scrollbar:vertical {
+    width:10px;
+}
+
+.about-div > div::-webkit-scrollbar-button:increment,.contenedor::-webkit-scrollbar-button {
+    display: none;
+} 
+
+.about-div > div::-webkit-scrollbar:horizontal {
+    height: 10px;
+}
+
+.about-div > div::-webkit-scrollbar-thumb {
+    background-color: #5347ae;
+    border-radius: 20px;
+    border: 2px solid #f1f2f3;
+}
+
+.about-div > div::-webkit-scrollbar-track {
+    border-radius: 10px;  
 }
 
 .text-about-me{
@@ -38,7 +67,8 @@
 @media (max-width: 768px) {
     .about-div{
         height: 100vh;
-        padding: 20% 5%;
+        padding: 25% 5% 10% 5%;
+        
     }
     
     
