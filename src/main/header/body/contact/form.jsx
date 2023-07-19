@@ -1,6 +1,7 @@
 import React from "react";
 import './contact.css';
 import { useState } from "react";
+import emailjs from 'emailjs-com';
 
 function Form() {
     const [text, setText] = useState('');
@@ -23,6 +24,13 @@ function Form() {
   
     const send = (event) => {
       event.preventDefault();
+      const templateParams = {
+        from_name: text,
+        from_email: email,
+        to_name: 'Joaquin Sanchez', // Reemplaza con el nombre del destinatario
+        subject: 'Empleo o freelance.',
+        message: message,
+      };
       const campoValidacion = {};
   
       if (text.trim() === '') {
@@ -40,7 +48,13 @@ function Form() {
       setError(campoValidacion);
   
       if (Object.keys(campoValidacion).length === 0) {
-        console.log('Formulario enviado con éxito');
+        emailjs.send('service_8ep3rf9','template_0fm7z6o',templateParams,'Jbxdd2IbV9wpoJ56C')
+        .then((response) => {
+          alert('Correo enviado correctamente.');
+        }, (error) => {
+          alert('Error al enviar el correo: ' + error);
+        });
+        
         setText('');
         setEmail('');
         setMessage('');
