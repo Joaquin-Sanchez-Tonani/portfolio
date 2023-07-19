@@ -68,3 +68,21 @@
     }
 }
 
+@media (max-width:1300px){
+    .skills{
+        display: flex;
+        gap: 100px;
+        justify-content: center;
+        margin-right: 5%;
+    }
+}
+
+@media (max-width:700px){
+    .skills{
+        display: flex;
+        gap: 50px;
+        justify-content: center;
+        margin-right: 5%;
+    }
+}
+
