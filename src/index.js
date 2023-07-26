@@ -1,22 +1,27 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import ReactDOM from 'react-dom/client';
 import App from './App';
+import { createBrowserRouter , RouterProvider } from 'react-router-dom';
 import Calculator from './components/calculadora/calculator';
 import Header from './header-proyects/header';
 
-const Root = () => (
+const rutas = createBrowserRouter([
+  {
+    path: '/',
+    element: <App />
+  },
+  {
+    path: '/project',
+    element:  (
+    <div>
+      <Header /> 
+      <Calculator />
+    </div>)
+  }
+])
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
   <React.StrictMode>
-    <Router>
-      <Route exact path="/" component={App} />
-      <Route path="/project" component={() => (
-        <div>
-          <Header /> 
-          <Calculator />
-        </div>
-      )} />
-    </Router>
+    <RouterProvider router={rutas}></RouterProvider>
   </React.StrictMode>
 );
-
-ReactDOM.createRoot(document.getElementById('root')).render(<Root />);
