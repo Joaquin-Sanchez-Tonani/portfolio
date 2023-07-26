@@ -115,7 +115,7 @@
 
 @media (max-width: 768px){
     .jota-contenedor{
-        justify-content: end;
+        justify-content: flex-end;
         
     } 
     .jota-contenedor > div{
