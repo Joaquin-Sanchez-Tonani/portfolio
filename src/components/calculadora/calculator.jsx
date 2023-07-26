@@ -1,11 +1,17 @@
 import React from "react";
 import './calculator.css';
 import { useState } from "react";
+import * as math from 'mathjs';
 
 function Calculator(){
-    const resolve = () =>{
-        setAnswer(eval(answer));
-    };
+    const resolve = () => {
+        try {
+          const result = math.evaluate(answer);
+          setAnswer(result.toString());
+        } catch (error) {
+          setAnswer("Error");
+        }
+      };
 
     const clear = () =>{
         setAnswer(' ');
