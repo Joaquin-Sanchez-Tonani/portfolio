@@ -14,5 +14,12 @@ html {
   scroll-behavior:smooth;
 }
 
+a:visited {
+  color: rgb(255, 255, 255); /* Puedes establecer el mismo color para el enlace visitado */
+}
 
+/* Estilo del enlace cuando está activo (seleccionado) */
+a:active {
+  color: rgb(255, 255, 255); /* Puedes establecer el mismo color para el enlace activo */
+}
       

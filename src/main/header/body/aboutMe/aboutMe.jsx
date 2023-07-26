@@ -16,9 +16,9 @@ function AboutMe(){
 
                             Apart from programming, I have a wide range of hobbies and interests. I love <strong className="strong">reading mangas</strong>, watching <strong className="strong">anime</strong> or <strong className="strong">series</strong>.
 
-                            <strong className="strong"> Music</strong> is also a big part of my life. I find solace and inspiration in various genres, and it often fuels my creativity while programming. Whether it's listening to my favorite tunes or discovering new artists, music has a way of connecting with me on a deeper level.
-
-                            To maintain a healthy balance in my life, I engage in physical activities regularly. Whether it's going for a run, or hitting the <strong className="strong">gym</strong>, I find that exercise not only keeps me physically fit but also helps me clear my mind and stay focused.
+                            <strong className="strong"> Music</strong> is also a part of my life as it often fuels my creativity while programming 
+                            
+                            i do exercise, which not only keeps me physically fit, but also helps me to clear up my mind and stay focused
 
                             And of course, I am an avid <strong className="strong">coffee lover</strong>. There's something comforting and invigorating about sipping a cup of coffee while working on a challenging coding project or simply enjoying a moment of relaxation.
 
@@ -26,7 +26,7 @@ function AboutMe(){
 
                             I am <strong className="strong">driven</strong>, curious, and always seeking to expand my knowledge in the world of programming. I am excited about the possibilities that lie ahead and the prospect of making a significant impact through my work.
 
-                            That's a little glimpse into who I am, Joaquin, the passionate programmer with diverse interests and a hunger for new experiences.
+                            That's a little glimpse into who I am, Joaquin.
                         </p>
                     </div>
                 </div>

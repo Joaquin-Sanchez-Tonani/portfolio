@@ -19,19 +19,18 @@
     }
     .projects-contenedor{
         height: 100vh;
-        padding: 130px 20px;
-        
+        padding: 130px 0px;
     }
 
     .projects-contenedor > div{
-        margin-right: 0;
+        margin-right: 3%;
         height: 20vh;
         margin-top: 30%;
         display: flex;
         justify-content: center;
         text-align: center;
         align-items: center;
-        gap: 1px;
+        gap: 20px;
     }
     
 }

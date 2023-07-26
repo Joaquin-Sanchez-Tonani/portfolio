@@ -97,6 +97,21 @@
     font-weight: 200;
 }
 
+@media (max-width:1100px){
+    
+  .education-contenedor {
+      display: grid;
+      grid-template-columns: repeat(
+          auto-fit,
+          minmax(
+            150px, 1fr
+          )
+      );
+      gap: 50px;
+      grid-row-gap:0px;
+    }
+    
+  }
 
 @media (max-width: 768px){
     .jota-contenedor{
@@ -199,18 +214,3 @@
   }
 }
 
-@media (max-width:1100px){
-    
-.education-contenedor {
-    display: grid;
-    grid-template-columns: repeat(
-        auto-fit,
-        minmax(
-          150px, 1fr
-        )
-    );
-    gap: 50px;
-    grid-row-gap:0px;
-  }
-  
-}

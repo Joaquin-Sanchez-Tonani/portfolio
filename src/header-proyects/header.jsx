@@ -4,7 +4,7 @@ function Header(){
     return(
         <header className="header-component">
             <h3 className="header-component-h3">Calculator Project</h3> 
-            <a className="header-component-link" href="#backToHome">Back</a>
+            <a className="header-component-link" href="/">Back</a>
         </header>
     );
 };

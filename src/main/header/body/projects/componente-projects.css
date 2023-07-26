@@ -42,7 +42,7 @@
 }
 
 .marco1:hover > .h3-absolute{
-    top: 500px;
+    top: 530px;
     transition: .5s;
 }
 .marco-p {
@@ -53,19 +53,24 @@
     box-shadow: 0px 1px 10px 0px rgba( 31, 38, 135, 0.1 );  
     position: absolute;
     top: 25%;
-    
     transition: .5s;
-    font-size: 23px;
+    font-size: 2vh;
     text-align: center;
-    padding: 40px 2px;
+    padding: 20px 15px;
 }
 
+.h5-title{
+    font-size: 25px;
+    text-align: center;
+}
 .marco-p > p {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
 }
 
-
+.lineas-projects + .lineas-projects{
+    margin-top: 20px;
+}
 
 
 
@@ -73,21 +78,18 @@
     height: 100%;
     width: 100%;
     border: 1px solid white;
-    animation: shadows 2s infinite;
+    animation: shadows 5s infinite;
 }
 
 @keyframes shadows {
     0% {
-      box-shadow: 0px 0px 30px 5px #ececec;
+      box-shadow: 0px 0px 10px 3px #c422c1;
     }
     50% {
-      
         box-shadow: none;
       }
-
     100% {
-      
-      box-shadow: 0px 0px 30px 5px #ffffff;
+      box-shadow: 0px 0px 10px 3px #c422c1;
     }
   }
 
@@ -123,7 +125,7 @@
     }
 
     .marco1 + .marco1{
-        margin-left: 10px;
+        margin-left: 50px;
     }
     .marco-imagen{
         height: 150px;
@@ -145,8 +147,8 @@
         font-size: 20px;
         color: aliceblue;
         top:230px;
-        left: 13%;
-        right: 50%;
+        left: 0;
+        right: 0;
         position: absolute;
         transition: .5s;
     }
@@ -166,8 +168,14 @@
         transition: .5s;
         font-size: 12px;
         text-align: center;
-        padding: 20px 5px;
+        padding: 10px 5px;
     }
-    
+    .h5-title{
+        font-size: 15px;
+        text-align: center;
+    }
+    .lineas-projects + .lineas-projects{
+        margin-top: 8px;
+    }
 
   }

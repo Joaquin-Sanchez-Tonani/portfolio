@@ -63,6 +63,24 @@
     padding-left: 40px;
 }
 
+.fi-sr-angle-double-small-down{
+    animation: arrow 2s infinite;
+}
+
+@keyframes arrow{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translatey(10px);
+        color: rgb(129, 128, 128);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
+
 @media (max-width: 768px) {
     .short{
         font-size: 15px;
