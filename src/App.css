@@ -15,11 +15,11 @@ html {
 }
 
 a:visited {
-  color: rgb(255, 255, 255); /* Puedes establecer el mismo color para el enlace visitado */
+  color: rgb(255, 255, 255) !important;  /* Puedes establecer el mismo color para el enlace visitado */
 }
 
 /* Estilo del enlace cuando está activo (seleccionado) */
 a:active {
-  color: rgb(255, 255, 255); /* Puedes establecer el mismo color para el enlace activo */
+  color: rgb(255, 255, 255) !important; /* Puedes establecer el mismo color para el enlace activo */
 }
       
