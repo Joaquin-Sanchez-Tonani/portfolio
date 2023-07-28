@@ -89,7 +89,7 @@ function Converter(){
             </div>
             <div className="span-conetenedor">
                 {isLoading && <span class="span-loading">Loading...</span>}
-                {resultado !== null && <span class="span-resultado">{toCurrency == 'ARS' ? `$ ${Math.round((resultado[toCurrency] * 2))}` : `${toCurrency} ${resultado[toCurrency]}`}</span>}
+                {resultado !== null && <span class="span-resultado">{toCurrency === 'ARS' ? `$ ${Math.round((resultado[toCurrency] * 2))}` : `${toCurrency} ${resultado[toCurrency]}`}</span>}
                 {error && <span class="span-error">Please, complete inputs.</span>}
             </div>
         </div>
