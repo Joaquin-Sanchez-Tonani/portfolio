@@ -22,6 +22,7 @@ function Converter(){
         };
     async function res(){
         try{
+            setIsLoading(true)
             const response = await fetch(url,options);
             const data = await response.json();
             setResultado(data.result)
