@@ -48,7 +48,7 @@ function Converter(){
     return(
         
         <div className="contenedor">
-            <h1 class="titulo">Currency Converter</h1>
+            <h1 className="titulo">Currency Converter</h1>
             <div className="contenedor-request" >
                 <label className="label-currency">From Currency:</label>
                 <input 
@@ -89,9 +89,9 @@ function Converter(){
                 <button onClick={fetching} className="button-currency" type="button">Converter</button>
             </div>
             <div className="span-conetenedor">
-                {isLoading && <span class="span-loading">Loading...</span>}
-                {resultado !== null && <span class="span-resultado">{toCurrency === 'ARS' ? `$ ${Math.round((resultado[toCurrency] * 2))}` : `${toCurrency} ${resultado[toCurrency]}`}</span>}
-                {error && <span class="span-error">Please, complete inputs.</span>}
+                {isLoading && <span className="span-loading">Loading...</span>}
+                {resultado !== null && <span className="span-resultado">{toCurrency === 'ARS' ? `$ ${Math.round((resultado[toCurrency] * 2))}` : `${toCurrency} ${resultado[toCurrency]}`}</span>}
+                {error && <span className="span-error">Please, complete inputs.</span>}
             </div>
         </div>
     );  

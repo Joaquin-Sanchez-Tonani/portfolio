@@ -12,7 +12,7 @@ function ComponenteProjects(props){
                 <img className="project-img" src={require(`./${props.img}.png`)} alt={props.name} />
             </div>
             <div className="marco-p">   
-                <p><h5 className="h5-title">Functionality:</h5><br/> </p>{ lines.map((line) => (<p className="lineas-projects">+ {line}</p>)) }
+                <p><strong className="h5-title">Functionality:</strong><br/> </p>{ lines.map((line) => (<p key={line} className="lineas-projects">+ {line}</p>)) }
             </div>
         </div>
         </a> 

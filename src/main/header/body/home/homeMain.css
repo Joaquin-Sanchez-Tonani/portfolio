@@ -64,7 +64,7 @@
 }
 
 .fi-sr-angle-double-small-down{
-    animation: arrow 2s infinite;
+    animation: arrow 3s infinite;
 }
 
 @keyframes arrow{
@@ -72,15 +72,52 @@
         transform: translateY(0);
     }
     50%{
-        transform: translatey(10px);
-        color: rgb(129, 128, 128);
+        transform: translatey(30px);
+        color: rgb(120, 120, 120);
     }
     100%{
         transform: translateY(0);
     }
 }
 
+.div-logo{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+}
 
+.logo{
+    width: 50vh;
+    margin-left: 40%;
+    margin-bottom: 5%;
+    animation: myAnim 7s infinite;}
+@keyframes myAnim {
+	0%,
+	100% {
+		transform: translateY(0) rotate(0);
+		transform-origin: 50% 50%;
+	}
+
+	15% {
+		transform: translateY(-30px) rotate(-6deg);
+	}
+
+	30% {
+		transform: translateY(15px) rotate(6deg);
+	}
+
+	45% {
+		transform: translateY(-15px) rotate(-3.6deg);
+	}
+
+	60% {
+		transform: translateY(9px) rotate(2.4deg);
+	}
+
+	75% {
+		transform: translateY(-6px) rotate(-1.2deg);
+	}
+}
 @media (max-width: 768px) {
     .short{
         font-size: 15px;
