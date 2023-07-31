@@ -1,9 +1,11 @@
+
+
 .component{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 120px;
     user-select: none;
+    height: calc(100vh - 70px);
 }
 
 .calculator-component{
