@@ -1,7 +1,7 @@
 .redes-sociales{
     position: absolute;
     top: 0;
-    left: calc(50% - 1%);
+    left: 50%;
     transform: translate(-50%);
     background-color: rgba(0, 0, 0, 0.138);
     padding: 15px 40px;
@@ -28,16 +28,13 @@
     user-select: none;
 }
 
-
-
-
 .home{
     height: 100vh;
     display: flex;
     align-items: center;
     user-select: none;
+    position: relative;
 }
-
 
 .short{
     font-size: 40px;
@@ -67,28 +64,13 @@
 }
 
 .flecha{
-    font-size: 50px;
+    font-size: 40px;
     color: rgb(255, 255, 255);
     position: absolute;
-    bottom: 2%;
-    left: 48%;
-    transform: translateX(-50%);
-}
-
-
-.download{
-    display:inline-block;
-    
-    padding: 15px;
-    background-color: rgb(249, 0, 0);
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%,-50%);
     text-decoration: none;
-    color: rgb(255, 255, 255);
-    font-size: 15px;
-    margin-top: 25px;
-    border-bottom-right-radius:  30px;
-    border-top-right-radius:30px;
-    transition: .5s;
-    font-weight: 900;
 }
 
 .download:hover{
@@ -210,11 +192,6 @@
         font-size: 25px;
         padding-left: 10px;
         padding-right: 10px;
-    }
-    
-    .flecha{
-        font-size: 70px;
-        left: 43%;
     }
     
     .download{

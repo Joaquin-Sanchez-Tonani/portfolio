@@ -10,7 +10,6 @@ function Projects(){
             <div>
                 <ComponenteProjects ruta='project' img='calculadora' name='Calculator' text= 'Add /n Subtract /n Divide /n Multiply'   />
                 <ComponenteProjects ruta='converter' img='converter' name='Converter' text='Converter currency to currency./n This works by API key'/>
-                <ComponenteProjects img='oshinogod' name='Project3' text='Project2'/>
             </div>
         </div>
     </div>

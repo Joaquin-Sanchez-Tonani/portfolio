@@ -5,6 +5,7 @@ import App from './App';
 import Calculator from './components/calculadora/calculator';
 import Header from './header-proyects/header';
 import Converter from './components/calculadora/converter';
+import Apartado from './components/calculadora/apartado';
 const Root = () => (
   <Router>
     <Routes>
@@ -19,6 +20,12 @@ const Root = () => (
         <div>
           <Header title="Converter" /> 
           <Converter />
+        </div>
+      )} />
+      <Route path="/apartado" element={(
+        <div>
+          <Header title="Apartado" /> 
+          <Apartado />
         </div>
       )} />
     </Routes>
