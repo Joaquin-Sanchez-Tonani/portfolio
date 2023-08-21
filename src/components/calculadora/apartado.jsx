@@ -1,7 +1,7 @@
 import React from "react";
 import './apartado.css'
 import { useState , useRef , useEffect} from "react";
-import icon from './compressimagen19.jpg'
+import icon from './me.png'
 import Skills from "../../main/header/body/skills/skills";
 import Education from "../../main/header/body/education/education";
 
@@ -46,7 +46,6 @@ function Apartado(){
                     <div className="div-image">
                         <img className="icon-joaquin" src={icon} alt="joaquinSanchezTonani" />
                     </div>
-                    <h1 className="name-apartado">I'm Joaquin</h1>
                     <h3 className="description" >Programmer</h3>
                     <h3 className="description2" >and</h3>
                     <h3 className="description" >Web developer</h3>
