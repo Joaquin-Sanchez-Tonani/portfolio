@@ -1,7 +1,7 @@
 import React from "react";
 import './apartado.css'
 import { useState , useRef , useEffect} from "react";
-import icon from './me.png'
+import icon from './image-me.jpg'
 import Skills from "../../main/header/body/skills/skills";
 import Education from "../../main/header/body/education/education";
 
