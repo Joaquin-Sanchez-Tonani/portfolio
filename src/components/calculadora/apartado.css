@@ -359,7 +359,7 @@
     }
  }
 
- @media (max-height:700px) and (max-width:1024px) {
+ @media (max-height:700px) and (max-width:1439px) {
     .fondo-apartado{
         row-gap: 0;
         gap: 0px;
