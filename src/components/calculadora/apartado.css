@@ -23,7 +23,6 @@
 
 .fondo-apartado{
     background: url('150315.jpg');
-    
     background-repeat: no-repeat;
     display: block;
     width: 30%;
@@ -99,7 +98,7 @@
 }
 
 .div-hire-cv{
-    margin-top: 50px;
+    margin-top: 20px;
     width: 90%;
     display: flex;
     justify-content: space-between;
@@ -241,7 +240,7 @@
     }
     .fondo-apartado{
         width: 80%;
-        background-size:150%;
+        background-size:140%;
         height: 40%;
         display: flex;
         animation: space 15s infinite alternate;
@@ -357,5 +356,33 @@
     .name-apartado{
         font-size: 17px;
         margin-top: 0;
+    }
+ }
+
+ @media (max-height:700px) and (max-width:1024px) {
+    .fondo-apartado{
+        row-gap: 0;
+        gap: 0px;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .fondo-apartado-transparente{
+        padding: 10px;
+        border-radius: 15px;
+        margin: 30px;
+        background-color: transparent;
+    }
+    .div-hire-cv {
+        width: 50%;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    .cv-download{
+        margin-top: 30px;
+    }
+    .description,.description2{
+        display: none;
     }
  }

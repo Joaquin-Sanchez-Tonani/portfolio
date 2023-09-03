@@ -16,7 +16,7 @@
 }
 
 .redes-link:hover{
-    color: rgba(74, 19, 126, 0.348);
+    color: rgba(217, 216, 218, 0.553);
     transition: .5s;
 }
 
@@ -103,7 +103,7 @@
 
 .logo{
     width: 50vh;
-    margin-left: 60%;
+    margin-left: 15%;
     margin-bottom: 5%;
     animation: myAnim 7s infinite;
 }
