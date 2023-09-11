@@ -10,6 +10,9 @@ function Skills(){
             <Logos name='CSS' img= 'css'/>
             <Logos name='GitHub' img= 'github'/>
             <Logos name='Git' img= 'git'/>
+            <Logos name='MySql' img= 'mysql'/>
+            <Logos name='Node' img= 'node'/>
+            <Logos name='AWS' img= 'aws'/>
         </div>
     );
 };
