@@ -190,8 +190,8 @@
 
 .skills{
     display: grid;
-    column-gap: 20px;
-    row-gap: 20px;
+    column-gap: 0;
+    row-gap: 5px;
     grid-template-columns: repeat(3, minmax(100px, 1fr));
     grid-template-rows: repeat(2, minmax(100px, 1fr));
 }
@@ -277,6 +277,9 @@
     .texto-edu2{
         font-size: 14px;
     }
+    .skills{
+    grid-template-columns: repeat(4, minmax(100px, 1fr));
+}
 }
 
 @media (max-width: 767px) {
