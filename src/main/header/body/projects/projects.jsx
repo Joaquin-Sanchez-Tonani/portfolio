@@ -19,9 +19,10 @@ function Projects(){
 
         <div  className="grid-projects">
             <div className="componentes">
-                <ComponenteProjects ruta='https://joaquin-sanchez-tonani-ecommerce.netlify.app/' img='ecommerce' name='E-commerce site' text= 'E-commerce site'   />
-                <ComponenteProjects ruta='project' img='calculadora' name='Calculator' text= 'Add /n Subtract /n Divide /n Multiply'   />
-                <ComponenteProjects ruta='converter' img='converter' name='Converter' text='Converter currency to currency./n This works by API key'/>
+                <ComponenteProjects ruta='https://joaquin-sanchez-tonani-ecommerce.netlify.app/'  name='E-commerce site' />
+                <ComponenteProjects ruta='https://hangmanjoaquin.netlify.app/'  name='Hangman' />
+                <ComponenteProjects ruta='project'  name='Calculator' />
+                <ComponenteProjects ruta='converter'  name='Converter' />
             </div>
         </div>
     </div>
